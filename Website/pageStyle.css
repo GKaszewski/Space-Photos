@@ -1,0 +1,60 @@
+.h1
+{
+    font-size: 14px;
+}
+
+.spaceSlide
+{
+    display: none;
+    height: 300px;
+    width: auto;
+}
+
+#container
+{
+    background-color: #bdc3c7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    text-align: center;
+    height: 300px;
+}
+
+#header_text
+{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#page
+{
+    height: 400px;
+    align-content: center;
+    align-items: center;
+}
+
+#page_text
+{
+    text-align: center;
+}
+
+#footer
+{
+    height: 50px;
+    background-color: #7f8c8d
+}
+
+#footer_text
+{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
