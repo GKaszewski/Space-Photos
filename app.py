@@ -12,3 +12,4 @@ picture_data = requests.get(picture_collection).json()
 picture_url = picture_data[0]
 #print(picture_url)
 webbrowser.open_new_tab(picture_url)
+
