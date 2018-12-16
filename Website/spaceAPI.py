@@ -6,7 +6,7 @@ cool_phenomena = ['nebula','orion','blazars','milky way','jupiter', 'Aurora', 'S
 def getCoolPicture():
     keywordID = random.randint(0, len(cool_phenomena))
     keyword = cool_phenomena[keywordID]
-    print(keyword)
+    #print(keyword)
     url = main_api + urllib.parse.urlencode({'q':keyword,'media_type':'image'})
     json_data = requests.get(url).json()
     rndPhoto = random.randint(0, len(json_data['collection']['items']));
@@ -15,5 +15,3 @@ def getCoolPicture():
     picture_url = picture_data[0]
     #print(picture_url)
     webbrowser.open_new_tab(picture_url)
-
-getCoolPicture();
